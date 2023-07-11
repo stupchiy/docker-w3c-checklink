@@ -9,6 +9,7 @@ RUN apt-get update && apt-get install -y \
       build-essential \
       libssl-dev \
       curl \
+      zlib1g-dev \
   && rm -rf /var/lib/apt/lists/*
 
 ENV CHECKLINK_VERSION 4_81
